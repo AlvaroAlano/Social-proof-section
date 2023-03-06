@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+
+:root {
+  --very-dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --light-grayish--magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e9e0eb;
+}
+.container {
+  width: 900px;
+  background-color: var(--white);
+  padding: 70px 100px;
+  font-family: "League Spartan", sans-serif;
+}
+.areaTop {
+  display: flex;
+}
+.areaTopLeft {
+  width: 50%;
+}
+.areaTopLeft h1 {
+  font-size: 40px;
+  color: var(--very-dark-magenta);
+  margin-bottom: 0px;
+}
+.areaTopLeft p {
+  font-size: 15px;
+  margin-top: 20px;
+  color: var(--dark-grayish-magenta);
+  width: 320px;
+}
+.areaTopRight {
+  width: 50%;
+}
+.areaTopRight .star1,
+.areaTopRight .star2,
+.areaTopRight .star3 {
+  border: 1px solid transparent;
+  background-color: var(--light-grayish--magenta);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.areaTopRight span {
+  margin-left: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  color: var(--very-dark-magenta);
+}
+.areaTopRight img {
+  width: 14px;
+  margin-left: 5px;
+}
+.areaTopRight .star1 {
+  margin-top: 40px;
+}
+.areaTopRight .star2 {
+  margin-left: 40px;
+}
+.areaTopRight .star3 {
+  margin-left: 80px;
+}
+.comments {
+  display: flex;
+  margin-top: 40px;
+}
+.comment1,
+.comment2,
+.comment3 {
+  background-color: var(--very-dark-magenta);
+  color: #fff;
+  width: 295px;
+  height: 150px;
+  margin-right: 15px;
+  padding: 25px;
+  border-radius: 10px;
+}
+.comment2 {
+  margin-top: 20px;
+}
+.comment3 {
+  margin-top: 40px;
+}
+.imageUser img {
+  width: 35px;
+  border-radius: 50px;
+}
+.imageUser {
+  margin-top: 10px;
+  margin-right: 25px;
+}
+.headerUser {
+  display: flex;
+}
+.user h2 {
+  font-size: 15px;
+  margin-bottom: -20px;
+}
+.user h5 {
+  color: var(--soft-pink);
+}
+.user {
+  display: flex;
+  flex-direction: column;
+}
+.comments p {
+  margin-top: 0;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 0px 0;
+    height: 100vh;
+  }
+  .areaTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .areaTopLeft {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .areaTopLeft h1 {
+    text-align: center;
+  }
+  .areaTopLeft p {
+    text-align: center;
+    width: 100%;
+  }
+  .areaTopRight {
+    display: flex;
+    flex-direction: column;
+  }
+  .areaTopRight .star2 {
+    margin-left: 0px;
+  }
+  .areaTopRight .star3 {
+    margin-left: 0px;
+  }
+  .areaTopRight {
+    display: flex;
+    justify-content: center;
+  }
+  .areaTopRight .star1,
+  .areaTopRight .star2,
+  .areaTopRight .star3 {
+    width: 240px;
+    margin-left: -60px;
+    padding: 5px 15px;
+    display: flex;
+  }
+  .areaTopRight span {
+    font-size: 10px;
+  }
+  .comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .comment1,
+  .comment2,
+  .comment3 {
+    width: 220px;
+    margin-right: 0;
+  }
+  .comment2 {
+    margin-top: 20px;
+  }
+  .comment3 {
+    margin-top: 20px;
+  }
+}
+.comment1{
+   align-content: ;
+   flex-direction: ;
+}
